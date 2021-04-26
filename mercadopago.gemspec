@@ -10,11 +10,12 @@ Gem::Specification.new do |gem|
   gem.homepage              = 'http://github.com/mercadopago/sdk-ruby'
   gem.license               = 'MIT'
 
-  gem.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
+  gem.files         = Dir['**/*'].keep_if { |file| File.file?(file) }
   gem.test_files    = gem.files.grep(%r{^(tests)/})
   gem.require_paths = ['lib']
 
   gem.add_dependency 'json'
+  gem.add_dependency 'rest-client'
 
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'rake'
