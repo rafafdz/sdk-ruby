@@ -1,22 +1,22 @@
 # typed: true
 # frozen_string_literal: true
 
-require_relative './http/http_client'
-require_relative './core/mp_base'
-require_relative './config/config'
-require_relative './config/request_options'
-require_relative './resources/customer'
-require_relative './resources/card'
-require_relative './resources/user'
-require_relative './resources/identification_type'
-require_relative './resources/preference'
-require_relative './resources/payment'
-require_relative './resources/card_token'
-require_relative './resources/refund'
-require_relative './resources/merchant_order'
-require_relative './resources/payment_methods'
-require_relative './resources/advanced_payment'
-require_relative './resources/disbursement_refund'
+# require_relative './http/http_client'
+# require_relative './core/mp_base'
+# require_relative './config/config'
+# require_relative './config/request_options'
+# require_relative './resources/customer'
+# require_relative './resources/card'
+# require_relative './resources/user'
+# require_relative './resources/identification_type'
+# require_relative './resources/preference'
+# require_relative './resources/payment'
+# require_relative './resources/card_token'
+# require_relative './resources/refund'
+# require_relative './resources/merchant_order'
+# require_relative './resources/payment_methods'
+# require_relative './resources/advanced_payment'
+# require_relative './resources/disbursement_refund'
 
 module Mercadopago
   class SDK
