@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
 Gem::Specification.new do |gem|
-  gem.name                  = 'mercadopago-sdk'
+  gem.name                  = 'mercadopago'
   gem.version               = '2.0.1'
   gem.required_ruby_version = '>= 2.3.0'
   gem.author                = 'Mercado Pago'

@@ -1,5 +1,6 @@
 # typed: strict
 # frozen_string_literal: true
+puts 'mercadopago required'
 
 require_relative './mercadopago/http/http_client'
 
